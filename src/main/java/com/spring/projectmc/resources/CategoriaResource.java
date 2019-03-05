@@ -85,6 +85,4 @@ public class CategoriaResource {
 		Page<CategoriaDTO> pageDTO = pag.map(obj -> new CategoriaDTO(obj));
 		return ResponseEntity.ok().body(pageDTO);
 	}
-	
-
 }
